@@ -1,0 +1,5 @@
+com/example/proxydb/operation/RealDatabaseOperation.class
+com/example/proxydb/config/DataSourceConfig.class
+com/example/proxydb/operation/IDatabaseOperation.class
+com/example/proxydb/ProxyDbApplication.class
+com/example/proxydb/operation/DatabaseProxy.class

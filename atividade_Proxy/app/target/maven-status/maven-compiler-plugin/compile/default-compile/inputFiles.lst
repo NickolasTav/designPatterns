@@ -1,0 +1,5 @@
+/workspaces/designPatterns/atividade_Proxy/app/src/main/java/com/example/atividade_proxy/operation/DatabaseProxy.java
+/workspaces/designPatterns/atividade_Proxy/app/src/main/java/com/example/atividade_proxy/operation/RealDatabaseOperation.java
+/workspaces/designPatterns/atividade_Proxy/app/src/main/java/com/example/atividade_proxy/config/DataSourceConfig.java
+/workspaces/designPatterns/atividade_Proxy/app/src/main/java/com/example/atividade_proxy/operation/IDatabaseOperation.java
+/workspaces/designPatterns/atividade_Proxy/app/src/main/java/com/example/atividade_proxy/ProxyDbApplication.java
