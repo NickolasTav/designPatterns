@@ -22,17 +22,13 @@ public class ProxyDbApplication {
         return args -> {
             IDatabaseOperation op = new DatabaseProxy(connection);
 
-            // teste válido
-            op.insertUser("Alice", "alice@example.com");
 
-            // teste inválido
+            op.insertUser("Níckolas Tavares do Nascimento", "nickolas@gmail.com");
             try {
-                op.insertUser("", "invalid@example.com");
+                op.insertUser("", "invalid@gmail.com");
             } catch (Exception ex) {
                 System.out.println("Capturado no runner: " + ex.getMessage());
             }
-
-            // para visualizar, pode encerrar depois
             System.exit(0);
         };
     }

@@ -15,11 +15,11 @@ public class DatabaseProxy implements IDatabaseOperation {
     @Override
     public void insertUser(String name, String email) {
         try {
-            // validações
+
             if (name == null || name.isBlank() || email == null || email.isBlank()) {
                 throw new IllegalArgumentException("Nome e e‑mail não podem ser vazios.");
             }
-            // chamada real
+
             real.insertUser(name, email);
             conn.commit();
             System.out.println("Usuário inserido: " + name);

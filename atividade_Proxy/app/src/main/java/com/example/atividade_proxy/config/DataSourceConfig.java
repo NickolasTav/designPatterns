@@ -17,7 +17,7 @@ public class DataSourceConfig {
     @Bean
     public Connection connection() throws SQLException {
         Connection conn = dataSource.getConnection();
-        conn.setAutoCommit(false);  // habilita transações manuais
+        conn.setAutoCommit(false);
         return conn;
     }
 }
